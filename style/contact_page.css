@@ -1,0 +1,60 @@
+.text-content {
+    font-family: 'Vazir', sans-serif;
+    color: #f3c705;
+  }
+
+
+.center-box {
+    flex-direction: column;
+    width: 100vmin ;
+    height: 100vmin; 
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    backdrop-filter: blur(10px); 
+  }
+
+.title {
+    font-size: 40px;
+}
+  
+.image {
+max-width: 80٪;
+}
+@media (min-width: 424px) {
+.image{
+    max-width: 56% ;
+}
+.title{
+    font-size: 25px;
+}
+}
+@media (min-width: 767px) {
+.image{
+    max-width: 44% ;
+}
+.title{
+    font-size: 20px ;
+}
+}
+
+
+  .btn-orange {
+    display: inline-block;
+    background-color: orange;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-orange:hover {
+    background-color: darkorange;
+  }
+  
