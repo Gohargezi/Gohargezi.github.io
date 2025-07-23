@@ -1,6 +1,7 @@
 .text-content {
     font-family: 'Vazir', sans-serif;
     color: #f3c705;
+    font-size: 12px;
   }
 
 
@@ -18,27 +19,47 @@
   }
 
 .title {
-    font-size: 40px;
+    font-size: 25px;
 }
   
 .image {
-max-width: 80٪;
+max-width: 40٪;
 }
+
+
+
+@media (min-width: 0px) {
+    .image{
+        max-width: 50% ;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .text-content{
+        font-size: 12px;
+    }
+    }
 @media (min-width: 424px) {
-.image{
-    max-width: 56% ;
-}
-.title{
-    font-size: 25px;
-}
-}
+    .image{
+        max-width: 50% ;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .text-content{
+        font-size: 20px;
+    }
+    }
 @media (min-width: 767px) {
-.image{
-    max-width: 44% ;
-}
-.title{
-    font-size: 20px ;
-}
+    .image{
+        max-width: 50% ;
+    }
+    .title{
+        font-size: 40px ;
+    }
+    .text-content{
+        font-size: 20px;
+    }
 }
 
 
